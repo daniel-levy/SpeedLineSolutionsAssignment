@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Hot Pizza';
+    src: url('./fonts/HotPizza.woff2') format('woff2'),
+        url('./fonts/HotPizza.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    background-color: #ffde22;
+    color: crimson;
+    font-family: 'Hot Pizza';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#description1 {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;  
+    width: 75%;
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 16px;
+}
+
+#footer {
+    margin-top:10px;
+}
+
+.gm-style-iw {
+    color: black;
+}
+
