@@ -175,6 +175,7 @@ function ajaxGet(url, onSuccess, onError){
  */
 
 function urlBuilder(id){
+    //The API key is included in plaintext here. I would need to add a secret management service here to deal with this in a production environment
     var urlTemplate = "http://api.openweathermap.org/data/2.5/weather?id={id}&appid=f957d62460b3a7f8fdefa49f536f062a"
     return urlTemplate.replace("{id}", id);
 }
@@ -215,6 +216,3 @@ function convertToCelsius(temperature){
     var celsius = temperature - 273.15;
     return celsius.toFixed(1);
 }
-
-
-
